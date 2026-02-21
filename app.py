@@ -20,7 +20,7 @@ import streamlit as st
 # ============================================================
 # Page setup + CSS tightening
 # ============================================================
-st.set_page_config(page_title="HVAC Maintenance & Inefficiency Agent", layout="wide")
+st.set_page_config(page_title="HVAC Maintenance & Inefficiency Diagnostics", layout="wide")
 
 st.markdown(
     """
@@ -37,7 +37,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("🏢🧠 HVAC Maintenance & Inefficiency Agent")
+st.title("🏢🧠 HVAC Maintenance & Inefficiency Diagnostics")
 st.caption("Left: MP4 feed (optional) | Right: Chiller + AHU telemetry, inefficiency flags, maintenance prediction, GenBI (offline demo).")
 
 
